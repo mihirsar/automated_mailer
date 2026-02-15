@@ -43,11 +43,12 @@ if today_tuple in birthday_dict:
 #         connection.starttls()
 #         connection.login(user=my_email, password=app_password)
 #         connection.sendmail(from_addr=my_email,
-#                             to_addrs="mihirsardesai03452@gmail.com",
+#                             to_addrs=my_email,
 #                             msg=f"Subject:Monday Motivation\n\n{quote}")
 
 
 # date_of_birth = dt.datetime(year= , month= , day=)
+
 
 
 
